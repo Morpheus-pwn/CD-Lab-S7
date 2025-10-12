@@ -49,6 +49,7 @@ yacc  progname.y -d -w
 gcc lex.yy.c y.tab.c -w
 ./a.out
 ```
+## NOTE: For some lex programs, while program execution, use ctrl + D for displaying output.
 
 ## Common Troubleshooting
 

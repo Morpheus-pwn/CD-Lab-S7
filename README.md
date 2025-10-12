@@ -3,7 +3,7 @@
 
 (See [Syllabus](https://drive.google.com/file/d/1Rioof9iXXxhx8r6v0KyUyEd0BAUTCSba/view))
 
-## Experiments According to Rough record and 
+## Experiments According to Rough Record Order
 
 | **Sl. No.** |                        **Experiment**                        |
 | :---------: | :----------------------------------------------------------: |

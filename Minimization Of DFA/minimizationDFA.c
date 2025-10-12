@@ -9,7 +9,6 @@ int isFinal[MAX_STATES];
 int stateCount, symbolCount;
 int reachable[MAX_STATES];
 
-// Function to mark reachable states using DFS
 void dfs(int state) {
     if (reachable[state]) return;
     reachable[state] = 1;
@@ -20,7 +19,6 @@ void dfs(int state) {
     }
 }
 
-// Function to remove unreachable states
 void removeUnreachable() {
     for (int i = 0; i < stateCount; i++)
         reachable[i] = 0;
@@ -35,7 +33,6 @@ void removeUnreachable() {
     }
 }
 
-// Function to check if two states are equivalent
 int equivalent(int s1, int s2, int group[]) {
     if (isFinal[s1] != isFinal[s2]) return 0;
     for (int i = 0; i < symbolCount; i++) {
@@ -48,18 +45,16 @@ int equivalent(int s1, int s2, int group[]) {
     return 1;
 }
 
-// Function to minimize DFA
 void minimizeDFA() {
     removeUnreachable();
 
     int group[MAX_STATES];
     int newGroup[MAX_STATES];
-    int groupCount = 2; // 0 = non-final, 1 = final
+    int groupCount = 2; 
 
-    // Initial grouping: finals vs non-finals
     for (int i = 0; i < stateCount; i++) {
         if (reachable[i] == 0) {
-            group[i] = -1; // unreachable
+            group[i] = -1; 
         } else {
             group[i] = isFinal[i];
         }
@@ -145,7 +140,7 @@ int main() {
     }
 
     minimizeDFA();
-
     return 0;
 }
+
 

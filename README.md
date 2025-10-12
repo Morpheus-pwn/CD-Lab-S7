@@ -3,25 +3,26 @@
 
 (See [Syllabus](https://drive.google.com/file/d/1Rioof9iXXxhx8r6v0KyUyEd0BAUTCSba/view))
 
-## Experiments
+## Experiments According to Rough record and 
 
 | **Sl. No.** |                        **Experiment**                        |
 | :---------: | :----------------------------------------------------------: |
-|      1      |                   Lexical Analyzer using C                   |
-|      2      |                  Lexical Analyzer using Lex                  |
-|      3      | Lex program to display number of lines, words and characters |
-|      4      |              Lex program to convert abc -> ABC               |
-|      5      |    Lex program to display number of vowels and consonants    |
+|      1      |      Implementation Of Lexical Analyzer Using Lex Tool       |
+|      2      | Lex prg to display no. of lines,space,words and characters   |
+|      3      |          Lex program to convert Substring abc -> ABC         |
+|      4      |    Lex program to display number of vowels and consonants    |
+|      5      |            YACC Program to detect valid idenifier            |
 |      6      |          Lex program to implement simple calculator          |
-|      7      |            YACC Program to detect valid idenifier            |
-|      8      |      YACC Program to detect valid arithmetic expression      |
-|      9      |                 Simple calculator using YACC                 |
-|     10      |                  Program to find e-closure                   |
+|      7      |      YACC Program to detect valid arithmetic expression      |
+|      8      |                 Simple calculator using YACC                 |
+|      9      |            Program to implement first and follow             |
+|     10      |          Lex program to Implement Pattern Matching           |
 |     11      |           Program to implement Shift Reduce Parser           |
-|     12      |        Program to implement Recursive Descent Parser         |
-|     13      |       Program to implement Intermediate Code generator       |
-|     14      |             Program to implement Code generator              |
-|     15      |           Program to perform Constant Propagation            |
+|     12      |        Program to implement Conversion of NFA to DFA         |
+|     13      |        Program to implement Recursive Descent Parser         |
+|     14      |                   Program to implement E-NFA                 |
+|     15      |              Program to perform DFA minimization             |
+|     16      |           Program to perform Constant Propagation            |
 
 ## Compiling and running programs
 

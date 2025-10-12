@@ -29,7 +29,7 @@
 ### C Programs
 
 ```
-gcc program.c 
+gcc programname.c 
 ./a.out
 ```
 
@@ -45,7 +45,7 @@ gcc lex.yy.c
 
 ```
 lex prog.l
-yacc -d prog.y -W
+yacc  progname.y -d -w
 gcc lex.yy.c y.tab.c -w
 ./a.out
 ```

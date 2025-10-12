@@ -198,6 +198,5 @@ void printnewstate(struct node1 state)
         }
     }
     printf("}\t");
-
 }
 

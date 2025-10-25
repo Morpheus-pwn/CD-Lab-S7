@@ -36,7 +36,7 @@ gcc programname.c
 ### Lex Programs
 
 ```
-lex main.l
+lex programname.l
 gcc lex.yy.c 
 ./a.out
 ```
